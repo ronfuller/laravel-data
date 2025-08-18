@@ -11,8 +11,8 @@ class DataClassNameMapping
     * @param array<string, class-string<\Spatie\LaravelData\Support\DataClass>> $mappedDataObjects
     */
     public function __construct(
-        readonly array $mapped,
-        readonly array $mappedDataObjects,
+        public readonly array $mapped,
+        public readonly array $mappedDataObjects,
     ) {
     }
 

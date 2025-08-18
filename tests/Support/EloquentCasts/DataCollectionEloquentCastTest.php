@@ -5,7 +5,6 @@ use Illuminate\Support\Facades\DB;
 use function Pest\Laravel\assertDatabaseHas;
 
 use Spatie\LaravelData\Tests\Fakes\Models\DummyModelWithCasts;
-
 use Spatie\LaravelData\Tests\Fakes\Models\DummyModelWithCustomCollectionCasts;
 use Spatie\LaravelData\Tests\Fakes\Models\DummyModelWithDefaultCasts;
 use Spatie\LaravelData\Tests\Fakes\SimpleData;
